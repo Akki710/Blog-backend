@@ -33,11 +33,11 @@ app.use(cors());
 
 //Routes
 app.use("/api" , homeRoute);
-app.use("/api/bollywood" , bollywoodRoute);
-app.use("/api/hollywood" , hollywoodRoute);
-app.use("/api/fitness" , fitnessRoute);
-app.use("/api/food" , foodRoute);
-app.use("/api/technology" , technologyRoute);
+app.use("/api" , bollywoodRoute);
+app.use("/api" , hollywoodRoute);
+app.use("/api" , fitnessRoute);
+app.use("/api" , foodRoute);
+app.use("/api" , technologyRoute);
 
 
 
