@@ -25,7 +25,7 @@ mongoose.connect(process.env.DB,{useNewUrlParser:true,useUnifiedTopology:true})
 .then(()=>{console.log("Database Connected!!")})
 .catch((err)=>{console.log(err)});
 
-//Middlewares   
+//Middleware
 app.use(express.json());
 app.use(cors());
 
